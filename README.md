@@ -12,5 +12,5 @@ This repository contains the engineering design files to replicate the **TNU PIC
 
 ## Engineering Phase Progression Log
 * [x] **Phase 1-2:** Repository initialization and hardware tracking rules configuration.
-* [ ] **Phase 3-4:** Public cloud deployment and instructor alignment.
-* [ ] **Phase 5-6:** Schematic part placement and parametric BOM mapping.
+* [x] **Phase 3-4:** Public cloud deployment and instructor alignment.
+* [x] **Phase 5-6:** Schematic part placement and parametric BOM mapping.
