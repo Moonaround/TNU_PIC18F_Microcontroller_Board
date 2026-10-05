@@ -2613,6 +2613,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 86.36) (xy 247.65 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "105ca4aa-f908-4caf-be5d-5db3d0d36f11")
+	)
+	(wire
+		(pts
 			(xy 106.68 120.65) (xy 114.3 120.65)
 		)
 		(stroke
@@ -2690,6 +2700,16 @@
 			(type default)
 		)
 		(uuid "36094773-ec99-4f4f-956b-06be2611eb8d")
+	)
+	(wire
+		(pts
+			(xy 243.84 83.82) (xy 240.03 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4704cfa3-2d5a-44f1-b7c4-2c62f2adac0b")
 	)
 	(wire
 		(pts
@@ -2860,6 +2880,16 @@
 			(type default)
 		)
 		(uuid "7e0ee00d-8846-4401-bc7c-3b9e84b1f1da")
+	)
+	(wire
+		(pts
+			(xy 240.03 86.36) (xy 247.65 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88ed4d2e-baf6-4303-820e-6ecfb62f1072")
 	)
 	(wire
 		(pts
@@ -3093,6 +3123,30 @@
 	)
 	(global_label "+3.3V"
 		(shape input)
+		(at 243.84 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "279119ad-30a7-47c3-a2ba-cb9a45acb756")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.8558 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
 		(at 111.76 118.11 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3299,6 +3353,84 @@
 			(project "TNU_PIC18F_Microcontroller_Board"
 				(path "/15e8ab22-65cb-40fd-9dcb-5e4dfc708a47"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 247.65 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f7f55ab-f252-421e-b7f5-c02562421788")
+		(property "Reference" "#PWR04"
+			(at 247.65 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 247.65 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 247.65 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f193b921-c91f-4cad-b1a0-1b96bba2ca95")
+		)
+		(instances
+			(project "TNU_PIC18F_Microcontroller_Board"
+				(path "/15e8ab22-65cb-40fd-9dcb-5e4dfc708a47"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
