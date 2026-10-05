@@ -2703,6 +2703,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 92.71) (xy 105.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bf8180c-cc01-4a1d-948b-bf06d410355a")
+	)
+	(wire
+		(pts
 			(xy 243.84 83.82) (xy 240.03 83.82)
 		)
 		(stroke
@@ -3121,6 +3131,16 @@
 		)
 		(uuid "fd5f6766-a105-4e4b-b97d-bbd162aef510")
 	)
+	(label "GND"
+		(at 105.41 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1cc6af1-e9b3-47b6-b766-6e72056b5b1b")
+	)
 	(global_label "+3.3V"
 		(shape input)
 		(at 243.84 83.82 0)
@@ -3459,7 +3479,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PIC18F4520-xP"
+		(property "Value" "PIC18F47Q84"
 			(at 207.8833 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
