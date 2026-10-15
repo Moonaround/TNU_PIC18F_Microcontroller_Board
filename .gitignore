@@ -1,0 +1,5 @@
+*.bak
+*.lck
+*-bak
+._*
+.kicad_prl
