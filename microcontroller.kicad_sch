@@ -5728,7 +5728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 39.37 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6480,7 +6480,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 157.48 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6645,7 +6645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 185.42 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7044,7 +7044,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 121.92 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -7286,7 +7286,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 146.05 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7733,7 +7733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 39.37 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7898,7 +7898,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 39.37 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -8267,7 +8267,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 39.37 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8510,7 +8510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 185.42 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8830,7 +8830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 121.92 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -9474,7 +9474,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 39.37 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10047,7 +10047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 152.4 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10212,7 +10212,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 121.92 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10804,7 +10804,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 172.72 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -11047,7 +11047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 121.92 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -11447,7 +11447,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 121.92 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11690,7 +11690,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 121.92 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -12391,7 +12391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 121.92 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -13208,7 +13208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 185.42 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -13373,7 +13373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 185.42 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -13538,7 +13538,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 185.42 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -13703,7 +13703,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 185.42 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -13947,7 +13947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 39.37 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -14360,7 +14360,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 185.42 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -14525,7 +14525,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 39.37 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -15209,7 +15209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 203.2 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -15781,7 +15781,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 101.6 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -16115,7 +16115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 121.92 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -16358,7 +16358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 121.92 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -16601,7 +16601,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 39.37 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -16844,7 +16844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 185.42 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -17427,7 +17427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 185.42 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -17718,7 +17718,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 39.37 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -18221,7 +18221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 185.42 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -18892,7 +18892,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 121.92 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -19057,7 +19057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 185.42 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -19389,7 +19389,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 40.64 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -19633,7 +19633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 185.42 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -20202,7 +20202,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 121.92 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -20444,7 +20444,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 138.43 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -20609,7 +20609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 185.42 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -20774,7 +20774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 39.37 127 0)
 			(hide yes)
 			(show_name no)
@@ -21106,7 +21106,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 185.42 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -21350,7 +21350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 181.61 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -21593,7 +21593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 185.42 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -22097,7 +22097,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 121.92 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -22666,7 +22666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 39.37 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -22831,7 +22831,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 203.2 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -22996,7 +22996,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 185.42 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -23161,7 +23161,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 39.37 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -23678,7 +23678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "tnu:TestPoint_PinHeader_1x01_P2.54mm"
 			(at 185.42 76.2 0)
 			(hide yes)
 			(show_name no)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "tnu")(type "KiCad")(uri "${KIPRJMOD}/tnu.pretty")(options "")(descr "TNU project footprints"))
+)
