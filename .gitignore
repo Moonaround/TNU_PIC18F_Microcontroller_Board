@@ -1,0 +1,10 @@
+# --- KiCad Temporary and Backup Files ---
+*.lck
+*-bak
+*.bak
+_autosave-*
+*.kicad_prl
+
+# --- KiCad Output Directories (Optional) ---
+# Un-comment the line below if you don't want to commit your generated Gerber files
+# Gerber/
