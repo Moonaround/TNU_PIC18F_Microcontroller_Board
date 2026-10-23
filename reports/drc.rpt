@@ -1,5 +1,5 @@
 ** Drc report for tnu_pcb_pic40.kicad_pcb **
-** Created on 2026-10-22T21:20:06 **
+** Created on 2026-10-22T21:26:24 **
 ** Report includes: Errors, Warnings **
 
 ** Found 84 DRC violations **
@@ -949,7 +949,7 @@
     @(182.5000 mm, 50.5000 mm): PTH pad 1 [Net-(J5-Pin_1)] of SW1
     @(170.0000 mm, 50.5000 mm): PTH pad 1 [Net-(J5-Pin_1)] of SW1
 
-** Found 20 Footprint errors **
+** Found 24 Footprint errors **
 [net_conflict]: Pad net (Net-(C5-Pad2)) doesn't match net given by schematic (GND)
     Local override; warning
     @(77.2950 mm, 74.6100 mm): Pad 2 [Net-(C5-Pad2)] of C5 on F.Cu
@@ -974,6 +974,13 @@
 [net_conflict]: Pad net (Net-(U3-RB3{slash}CCP2)) doesn't match net given by schematic (/Microcontroller/RB3)
     Local override; warning
     @(65.4400 mm, 61.7900 mm): Pad 1 [Net-(U3-RB3/CCP2)] of TP8 on F.Cu
+[missing_footprint]: Missing footprint TP16 (TP)
+    Local override; warning
+[missing_footprint]: Missing footprint TP18 (TP)
+    Local override; warning
+[net_conflict]: Pad net (VCC) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(71.5400 mm, 40.4400 mm): Pad 1 [VCC] of TP21 on F.Cu
 [net_conflict]: Pad net (/Microcontroller/USB_TXD) doesn't match net given by schematic (/USB_TXD)
     Local override; warning
     @(71.5400 mm, 55.6900 mm): Pad 1 [/Microcontroller/USB_TXD] of TP26 on F.Cu
@@ -1010,6 +1017,9 @@
 [net_conflict]: Pad net (Net-(U3-RB3{slash}CCP2)) doesn't match net given by schematic (/Microcontroller/RB3)
     Local override; warning
     @(155.2400 mm, 108.6600 mm): PTH pad 36 [Net-(U3-RB3/CCP2)] of U3
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(74.5900 mm, 61.7900 mm): Footprint TP44
 
 ** Ignored checks **
     - Footprint has no courtyard defined

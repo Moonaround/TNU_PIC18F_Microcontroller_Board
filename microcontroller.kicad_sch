@@ -3901,6 +3901,12 @@
 		)
 	)
 	(junction
+		(at 148.59 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a908e3f3-bd39-4d64-aeaf-c2ea91e1a3ad")
+	)
+	(junction
 		(at 151.13 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4027,6 +4033,26 @@
 	(no_connect
 		(at 125.73 78.74)
 		(uuid "23b86d97-f298-4971-9558-b5831a03878a")
+	)
+	(wire
+		(pts
+			(xy 148.59 119.38) (xy 143.51 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dad5590-0c3d-4a94-9219-efc11a92929e")
+	)
+	(wire
+		(pts
+			(xy 143.51 119.38) (xy 143.51 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c87890f-8ba2-4ec8-aafd-5a9e6cabe7e0")
 	)
 	(wire
 		(pts
@@ -6433,7 +6459,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "068f2140-4716-42a7-88e5-95a6dbce913e")
-		(property "Reference" "TP21"
+		(property "Reference" "TP16"
 			(at 154.432 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6581,7 +6607,7 @@
 		(instances
 			(project "tnu_pcb_pic40"
 				(path "/a3fd5e7d-0cea-44a9-a82d-5c7b53d9d25b/ad02958a-2d73-4242-8533-95aa22a85c5d"
-					(reference "TP21")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -7239,7 +7265,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "197fa552-bb53-4621-8f7c-238c896f5110")
-		(property "Reference" "TP44"
+		(property "Reference" "TP18"
 			(at 147.574 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7387,7 +7413,172 @@
 		(instances
 			(project "tnu_pcb_pic40"
 				(path "/a3fd5e7d-0cea-44a9-a82d-5c7b53d9d25b/ad02958a-2d73-4242-8533-95aa22a85c5d"
-					(reference "TP44")
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 143.51 120.65 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cff489f4-8d3d-4425-ba04-0decbb1c7754")
+		(property "Reference" "TP21"
+			(at 139.954 124.206 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TP"
+			(at 140.97 123.952 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 138.43 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TEST POINT PC COMPACT .063\"D BLK"
+			(at 143.51 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 143.51 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_PartNum" "5006"
+			(at 143.51 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer2" ""
+			(at 143.51 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer2_PartNum" ""
+			(at 143.51 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 143.51 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor_PartNum" "5006K-ND"
+			(at 143.51 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor2" ""
+			(at 143.51 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor2_PartNum" ""
+			(at 143.51 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b41417fd-ebbe-462d-bdc3-16e25167482d")
+		)
+		(instances
+			(project "tnu_pcb_pic40"
+				(path "/a3fd5e7d-0cea-44a9-a82d-5c7b53d9d25b/ad02958a-2d73-4242-8533-95aa22a85c5d"
+					(reference "TP21")
 					(unit 1)
 				)
 			)
