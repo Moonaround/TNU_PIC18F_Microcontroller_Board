@@ -1832,6 +1832,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VCC"
 			(power global)
 			(pin_numbers
@@ -1973,6 +2088,12 @@
 		)
 	)
 	(junction
+		(at 92.71 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23375178-dcfe-445b-a38e-201da9fc2fea")
+	)
+	(junction
 		(at 69.85 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2055,6 +2176,22 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e717fbed-5f77-4ed8-814f-22f518816954")
+	)
+	(no_connect
+		(at 166.37 74.93)
+		(uuid "464f4f65-e309-41ea-a496-51aee33b29dd")
+	)
+	(no_connect
+		(at 166.37 82.55)
+		(uuid "ab40b5d7-7eb5-462a-ad46-edd182ce80fb")
+	)
+	(no_connect
+		(at 166.37 77.47)
+		(uuid "68ae0e77-9a3f-4763-8f95-48554bd0f342")
+	)
+	(no_connect
+		(at 166.37 80.01)
+		(uuid "2fe634f9-940b-4967-b67b-9d9230eb8b50")
 	)
 	(wire
 		(pts
@@ -2218,13 +2355,23 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 40.64) (xy 100.33 40.64)
+			(xy 85.09 40.64) (xy 92.71 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "265a4cdb-9cbd-40df-b988-7b77772ae72f")
+	)
+	(wire
+		(pts
+			(xy 92.71 40.64) (xy 100.33 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4950b83d-8edb-4a63-aeab-2d86ce783bc2")
 	)
 	(wire
 		(pts
@@ -3304,7 +3451,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "power:GND")
 		(at 33.02 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -3326,7 +3473,7 @@
 				)
 			)
 		)
-		(property "Value" "usb"
+		(property "Value" "GND"
 			(at 33.02 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3358,7 +3505,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 33.02 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3980,7 +4127,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "power:GND")
 		(at 69.85 90.17 0)
 		(unit 1)
 		(body_style 1)
@@ -4002,7 +4149,7 @@
 				)
 			)
 		)
-		(property "Value" "usb"
+		(property "Value" "GND"
 			(at 69.85 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4034,7 +4181,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 69.85 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4885,7 +5032,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "power:GND")
 		(at 157.48 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -4907,7 +5054,7 @@
 				)
 			)
 		)
-		(property "Value" "usb"
+		(property "Value" "GND"
 			(at 157.48 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4939,7 +5086,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 157.48 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -5218,7 +5365,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "power:GND")
 		(at 82.55 90.17 0)
 		(unit 1)
 		(body_style 1)
@@ -5240,7 +5387,7 @@
 				)
 			)
 		)
-		(property "Value" "usb"
+		(property "Value" "GND"
 			(at 82.55 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5272,7 +5419,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 82.55 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5908,7 +6055,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "power:GND")
 		(at 48.26 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -5930,7 +6077,7 @@
 				)
 			)
 		)
-		(property "Value" "usb"
+		(property "Value" "GND"
 			(at 48.26 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5962,7 +6109,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 48.26 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6448,173 +6595,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 41.91 154.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93a5c992-b874-470a-9b49-6578d67f367e")
-		(property "Reference" "#PWR012"
-			(at 41.91 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "usb"
-			(at 41.91 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 41.91 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 41.91 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_PartNum" ""
-			(at 41.91 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer2" ""
-			(at 41.91 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer2_PartNum" ""
-			(at 41.91 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" ""
-			(at 41.91 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor_PartNum" ""
-			(at 41.91 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor2" ""
-			(at 41.91 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor2_PartNum" ""
-			(at 41.91 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "587fd431-cd40-44ea-8031-302851b048d0")
-		)
-		(instances
-			(project "tnu_pcb_pic40"
-				(path "/a3fd5e7d-0cea-44a9-a82d-5c7b53d9d25b"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "power:GND")
 		(at 100.33 49.53 0)
 		(unit 1)
 		(body_style 1)
@@ -6636,7 +6617,7 @@
 				)
 			)
 		)
-		(property "Value" "usb"
+		(property "Value" "GND"
 			(at 100.33 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6668,7 +6649,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 100.33 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7253,7 +7234,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "power:GND")
 		(at 101.6 142.24 0)
 		(unit 1)
 		(body_style 1)
@@ -7275,7 +7256,7 @@
 				)
 			)
 		)
-		(property "Value" "usb"
+		(property "Value" "GND"
 			(at 101.6 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7307,7 +7288,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 101.6 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -8910,6 +8891,84 @@
 			(project "tnu_pcb_pic40"
 				(path "/a3fd5e7d-0cea-44a9-a82d-5c7b53d9d25b"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 92.71 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0eb0d5a9-eb8f-4f8a-9fc9-a035ac5d4dd3")
+		(property "Reference" "#FLG01"
+			(at 92.71 38.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 92.71 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 92.71 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37edea1e-2572-4554-b9f8-5c91edc4dff7")
+		)
+		(instances
+			(project "tnu_pcb_pic40"
+				(path "/a3fd5e7d-0cea-44a9-a82d-5c7b53d9d25b"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
