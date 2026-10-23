@@ -2201,6 +2201,26 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 231.14) (xy 165.1 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f97096e4-26ce-460a-813a-3b36356a9caf")
+	)
+	(wire
+		(pts
+			(xy 170.18 231.14) (xy 170.18 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "826495c6-468f-4a1b-949c-76d7fa627e7d")
+	)
+	(wire
+		(pts
 			(xy 201.93 139.7) (xy 201.93 140.97)
 		)
 		(stroke
@@ -2959,38 +2979,55 @@
 		)
 		(uuid "feb6771e-49da-4dff-a8e6-71a2a9b3199a")
 	)
-	(hierarchical_label "USB_TXD"
-		(shape output)
+	(label "USB_TXD"
 		(at 171.45 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "525a85da-e4a9-4427-b79a-40b0feedae50")
 	)
-	(hierarchical_label "USB_RXD"
-		(shape input)
+	(label "USB_RXD"
 		(at 171.45 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "84e9b56c-fddb-4240-895d-46e08684463e")
 	)
-	(hierarchical_label "USB_RST"
-		(shape output)
+	(label "USB_RST"
 		(at 77.47 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
 		(uuid "d04847f7-759d-4e39-a221-fae78092f9d2")
+	)
+	(label "USB_TXD"
+		(at 165.1 226.06 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2922891a-659f-405d-8e50-ff647e60e2fd")
+	)
+	(label "USB_RXD"
+		(at 170.18 226.06 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d20b7cf-8d59-4316-bcde-ed9845a2c839")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -9114,6 +9151,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "USB_TXD" input
+			(at 165.1 231.14 90)
+			(uuid "fd6524e0-a78e-4160-be75-0455201784ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_RXD" output
+			(at 170.18 231.14 90)
+			(uuid "b361649f-1976-4067-ae57-7a0834b2f4ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

@@ -1,5 +1,5 @@
 ** Drc report for tnu_pcb_pic40.kicad_pcb **
-** Created on 2026-10-22T20:52:38 **
+** Created on 2026-10-22T21:20:06 **
 ** Report includes: Errors, Warnings **
 
 ** Found 84 DRC violations **
@@ -949,22 +949,46 @@
     @(182.5000 mm, 50.5000 mm): PTH pad 1 [Net-(J5-Pin_1)] of SW1
     @(170.0000 mm, 50.5000 mm): PTH pad 1 [Net-(J5-Pin_1)] of SW1
 
-** Found 10 Footprint errors **
+** Found 20 Footprint errors **
 [net_conflict]: Pad net (Net-(C5-Pad2)) doesn't match net given by schematic (GND)
     Local override; warning
     @(77.2950 mm, 74.6100 mm): Pad 2 [Net-(C5-Pad2)] of C5 on F.Cu
 [net_conflict]: Pad net (Net-(C5-Pad2)) doesn't match net given by schematic (GND)
     Local override; warning
     @(90.8450 mm, 64.9900 mm): Pad 2 [Net-(C5-Pad2)] of C6 on F.Cu
+[net_conflict]: Pad net (Net-(J5-Pin_1)) doesn't match net given by schematic (/Microcontroller/MCLRn)
+    Local override; warning
+    @(94.4900 mm, 65.6100 mm): PTH pad 1 [Net-(J5-Pin_1)] of J5
+[net_conflict]: Pad net (Net-(U3-~{MCLR}{slash}VPP)) doesn't match net given by schematic (/Microcontroller/MCLRn)
+    Local override; warning
+    @(85.3650 mm, 69.5900 mm): Pad 2 [Net-(U3-~{MCLR}/VPP)] of R7 on F.Cu
+[net_conflict]: Pad net (Net-(J5-Pin_1)) doesn't match net given by schematic (/Microcontroller/MCLRn)
+    Local override; warning
+    @(170.0000 mm, 50.5000 mm): PTH pad 1 [Net-(J5-Pin_1)] of SW1
+[net_conflict]: Pad net (Net-(J5-Pin_1)) doesn't match net given by schematic (/Microcontroller/MCLRn)
+    Local override; warning
+    @(182.5000 mm, 50.5000 mm): PTH pad 1 [Net-(J5-Pin_1)] of SW1
+[net_conflict]: Pad net (Net-(U3-~{MCLR}{slash}VPP)) doesn't match net given by schematic (/Microcontroller/MCLRn)
+    Local override; warning
+    @(65.4400 mm, 40.4400 mm): Pad 1 [Net-(U3-~{MCLR}/VPP)] of TP1 on F.Cu
 [net_conflict]: Pad net (Net-(U3-RB3{slash}CCP2)) doesn't match net given by schematic (/Microcontroller/RB3)
     Local override; warning
     @(65.4400 mm, 61.7900 mm): Pad 1 [Net-(U3-RB3/CCP2)] of TP8 on F.Cu
+[net_conflict]: Pad net (/Microcontroller/USB_TXD) doesn't match net given by schematic (/USB_TXD)
+    Local override; warning
+    @(71.5400 mm, 55.6900 mm): Pad 1 [/Microcontroller/USB_TXD] of TP26 on F.Cu
+[net_conflict]: Pad net (/Microcontroller/USB_RXD) doesn't match net given by schematic (/USB_RXD)
+    Local override; warning
+    @(71.5400 mm, 61.7900 mm): Pad 1 [/Microcontroller/USB_RXD] of TP28 on F.Cu
 [net_conflict]: Pad net (Net-(U3-SCK{slash}SCL{slash}RC3)) doesn't match net given by schematic (/Microcontroller/SCL)
     Local override; warning
     @(74.5900 mm, 43.4900 mm): Pad 1 [Net-(U3-SCK/SCL/RC3)] of TP31 on F.Cu
 [net_conflict]: Pad net (Net-(U3-SDI{slash}SDA{slash}RC4)) doesn't match net given by schematic (/Microcontroller/SDA)
     Local override; warning
     @(74.5900 mm, 46.5400 mm): Pad 1 [Net-(U3-SDI/SDA/RC4)] of TP32 on F.Cu
+[net_conflict]: Pad net (Net-(U3-~{MCLR}{slash}VPP)) doesn't match net given by schematic (/Microcontroller/MCLRn)
+    Local override; warning
+    @(140.0000 mm, 98.5000 mm): PTH pad 1 [Net-(U3-~{MCLR}/VPP)] of U3
 [net_conflict]: Pad net (unconnected-(U3-OSC1{slash}CLKIN-Pad13)) doesn't match net given by schematic (/Microcontroller/CLK)
     Local override; warning
     @(140.0000 mm, 128.9800 mm): PTH pad 13 [unconnected-(U3-OSC1/CLKIN-Pad13)] of U3
@@ -977,6 +1001,12 @@
 [net_conflict]: Pad net (Net-(U3-SDI{slash}SDA{slash}RC4)) doesn't match net given by schematic (/Microcontroller/SDA)
     Local override; warning
     @(155.2400 mm, 141.6800 mm): PTH pad 23 [Net-(U3-SDI/SDA/RC4)] of U3
+[net_conflict]: Pad net (/Microcontroller/USB_RXD) doesn't match net given by schematic (/USB_RXD)
+    Local override; warning
+    @(155.2400 mm, 136.6000 mm): PTH pad 25 [/Microcontroller/USB_RXD] of U3
+[net_conflict]: Pad net (/Microcontroller/USB_TXD) doesn't match net given by schematic (/USB_TXD)
+    Local override; warning
+    @(155.2400 mm, 134.0600 mm): PTH pad 26 [/Microcontroller/USB_TXD] of U3
 [net_conflict]: Pad net (Net-(U3-RB3{slash}CCP2)) doesn't match net given by schematic (/Microcontroller/RB3)
     Local override; warning
     @(155.2400 mm, 108.6600 mm): PTH pad 36 [Net-(U3-RB3/CCP2)] of U3

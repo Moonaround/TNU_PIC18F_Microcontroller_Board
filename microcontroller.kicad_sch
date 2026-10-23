@@ -5628,8 +5628,28 @@
 		)
 		(uuid "f0851b9c-761b-4ef5-a7c7-a8e806a01674")
 	)
+	(label "MCLRn"
+		(at 110.49 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e2c171f-7a57-492d-b967-8fdc108c26eb")
+	)
+	(label "MCLRn"
+		(at 90.17 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a32d8eba-3ed5-489d-9d76-ad52b93ad0bc")
+	)
 	(hierarchical_label "USB_RXD"
-		(shape input)
+		(shape output)
 		(at 207.01 69.85 0)
 		(effects
 			(font
@@ -5640,7 +5660,7 @@
 		(uuid "7a9af786-de22-42fe-a18e-5a97b4dc3043")
 	)
 	(hierarchical_label "USB_TXD"
-		(shape output)
+		(shape input)
 		(at 208.28 78.74 0)
 		(effects
 			(font

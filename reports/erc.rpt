@@ -1,38 +1,14 @@
-ERC report (2026-10-22T20:52:36, Encoding UTF8)
+ERC report (2026-10-22T21:20:05, Encoding UTF8)
 Report includes: Errors, Warnings
 
 ***** Sheet /
-[pin_not_connected]: Hierarchical label 'USB_RST' in root sheet cannot be connected to non-existent parent sheet
-    ; error
-    @(77.47 mm, 118.11 mm): Hierarchical Label 'USB_RST'
-[pin_not_driven]: Input pin not driven by any Output pins
-    ; error
-    @(166.37 mm, 67.31 mm): Symbol U1 Pin 4 [RXD, Input, Line]
-[pin_not_connected]: Hierarchical label 'USB_TXD' in root sheet cannot be connected to non-existent parent sheet
-    ; error
-    @(171.45 mm, 64.77 mm): Hierarchical Label 'USB_TXD'
-[pin_not_connected]: Hierarchical label 'USB_RXD' in root sheet cannot be connected to non-existent parent sheet
-    ; error
-    @(171.45 mm, 67.31 mm): Hierarchical Label 'USB_RXD'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(171.45 mm, 64.77 mm): Hierarchical Label 'USB_TXD'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(171.45 mm, 67.31 mm): Hierarchical Label 'USB_RXD'
 [footprint_filter]: Assigned footprint (oscillator_smd_euroquartz_xo53-4pin_5.0x3.2mm) doesn't match footprint filters (Oscillator*SMD*Abracon*ASE*3.2x2.5mm*)
     ; warning
     @(82.55 mm, 173.99 mm): Symbol U4 [ASE-xxxMHz]
 
 ***** Sheet /Microcontroller/
-[hier_label_mismatch]: Hierarchical label USB_RXD has no matching sheet pin in the parent sheet
-    ; error
-    @(207.01 mm, 69.85 mm): Hierarchical Label 'USB_RXD'
-[hier_label_mismatch]: Hierarchical label USB_TXD has no matching sheet pin in the parent sheet
-    ; error
-    @(208.28 mm, 78.74 mm): Hierarchical Label 'USB_TXD'
 
- ** ERC messages: 9  Errors 6  Warnings 3
+ ** ERC messages: 1  Errors 0  Warnings 1
 
  ** Ignored checks:
     - Global label only appears once in the schematic
