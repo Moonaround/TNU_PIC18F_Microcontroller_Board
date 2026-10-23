@@ -5467,6 +5467,36 @@
 		)
 		(uuid "f0851b9c-761b-4ef5-a7c7-a8e806a01674")
 	)
+	(label "SCL"
+		(at 176.53 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f508134-7202-4c9b-874d-f606e74e09df")
+	)
+	(label "SDA"
+		(at 176.53 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e55f2d26-964d-43ce-a362-03333f524f06")
+	)
+	(label "RB3"
+		(at 125.73 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3d74bb68-ea79-4448-8c79-8ab18e87f133")
+	)
 	(hierarchical_label "USB_RXD"
 		(shape input)
 		(at 207.01 69.85 0)
