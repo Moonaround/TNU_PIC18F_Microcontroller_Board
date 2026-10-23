@@ -1,5 +1,5 @@
 ** Drc report for tnu_pcb_pic40.kicad_pcb **
-** Created on 2026-10-22T20:26:16 **
+** Created on 2026-10-22T20:52:38 **
 ** Report includes: Errors, Warnings **
 
 ** Found 84 DRC violations **
@@ -949,7 +949,13 @@
     @(182.5000 mm, 50.5000 mm): PTH pad 1 [Net-(J5-Pin_1)] of SW1
     @(170.0000 mm, 50.5000 mm): PTH pad 1 [Net-(J5-Pin_1)] of SW1
 
-** Found 8 Footprint errors **
+** Found 10 Footprint errors **
+[net_conflict]: Pad net (Net-(C5-Pad2)) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(77.2950 mm, 74.6100 mm): Pad 2 [Net-(C5-Pad2)] of C5 on F.Cu
+[net_conflict]: Pad net (Net-(C5-Pad2)) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(90.8450 mm, 64.9900 mm): Pad 2 [Net-(C5-Pad2)] of C6 on F.Cu
 [net_conflict]: Pad net (Net-(U3-RB3{slash}CCP2)) doesn't match net given by schematic (/Microcontroller/RB3)
     Local override; warning
     @(65.4400 mm, 61.7900 mm): Pad 1 [Net-(U3-RB3/CCP2)] of TP8 on F.Cu

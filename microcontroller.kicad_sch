@@ -3901,12 +3901,6 @@
 		)
 	)
 	(junction
-		(at 60.96 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68172971-e264-46d3-9756-bea42dd7f8dd")
-	)
-	(junction
 		(at 151.13 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3959,6 +3953,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "676787cf-6ebf-428e-a578-c71d0b4d5644")
+	)
+	(junction
+		(at 60.96 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68172971-e264-46d3-9756-bea42dd7f8dd")
 	)
 	(junction
 		(at 44.45 50.8)
@@ -4021,12 +4021,12 @@
 		(uuid "f3edc927-0cd1-4990-8d6b-cb39e9de2cfb")
 	)
 	(no_connect
-		(at 125.73 78.74)
-		(uuid "23b86d97-f298-4971-9558-b5831a03878a")
-	)
-	(no_connect
 		(at 96.52 106.68)
 		(uuid "1e8df5bb-47d2-4a4f-966f-a45d56242719")
+	)
+	(no_connect
+		(at 125.73 78.74)
+		(uuid "23b86d97-f298-4971-9558-b5831a03878a")
 	)
 	(wire
 		(pts
@@ -4380,6 +4380,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 50.8) (xy 64.77 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a7eac90-57b6-4f86-96ab-f95da13e23d0")
+	)
+	(wire
+		(pts
 			(xy 165.1 35.56) (xy 172.72 35.56)
 		)
 		(stroke
@@ -4727,16 +4737,6 @@
 			(type default)
 		)
 		(uuid "85791b58-5400-41e7-9382-944b97b8dae4")
-	)
-	(wire
-		(pts
-			(xy 60.96 50.8) (xy 64.77 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a7eac90-57b6-4f86-96ab-f95da13e23d0")
 	)
 	(wire
 		(pts
@@ -5528,6 +5528,26 @@
 		)
 		(uuid "fec01334-d828-4383-99f5-84c2f7be34a7")
 	)
+	(label "SCL"
+		(at 176.53 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f508134-7202-4c9b-874d-f606e74e09df")
+	)
+	(label "RB3"
+		(at 125.73 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3d74bb68-ea79-4448-8c79-8ab18e87f133")
+	)
 	(label "PGC"
 		(at 97.79 104.14 0)
 		(effects
@@ -5588,26 +5608,6 @@
 		)
 		(uuid "e0dfbd58-a0d0-43cd-b0ca-a763b5f991fd")
 	)
-	(label "PGD"
-		(at 97.79 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f0851b9c-761b-4ef5-a7c7-a8e806a01674")
-	)
-	(label "SCL"
-		(at 176.53 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1f508134-7202-4c9b-874d-f606e74e09df")
-	)
 	(label "SDA"
 		(at 176.53 68.58 0)
 		(effects
@@ -5618,15 +5618,15 @@
 		)
 		(uuid "e55f2d26-964d-43ce-a362-03333f524f06")
 	)
-	(label "RB3"
-		(at 125.73 96.52 180)
+	(label "PGD"
+		(at 97.79 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "3d74bb68-ea79-4448-8c79-8ab18e87f133")
+		(uuid "f0851b9c-761b-4ef5-a7c7-a8e806a01674")
 	)
 	(hierarchical_label "USB_RXD"
 		(shape input)
@@ -9235,6 +9235,84 @@
 			(project "tnu_pcb_pic40"
 				(path "/a3fd5e7d-0cea-44a9-a82d-5c7b53d9d25b/ad02958a-2d73-4242-8533-95aa22a85c5d"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 60.96 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d563120-15d0-4562-8f05-95b7f1bc7b19")
+		(property "Reference" "#FLG03"
+			(at 60.96 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 60.96 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 60.96 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d92730c-186e-4c52-b7dc-a06fe7baa67a")
+		)
+		(instances
+			(project "tnu_pcb_pic40"
+				(path "/a3fd5e7d-0cea-44a9-a82d-5c7b53d9d25b/ad02958a-2d73-4242-8533-95aa22a85c5d"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -22268,6 +22346,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 102.87 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f218cc77-ae96-44a7-9abd-38eabe88a907")
+		(property "Reference" "#FLG02"
+			(at 102.87 94.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 102.87 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 102.87 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56a329c0-98f2-43d9-a22c-b1555cd8467c")
+		)
+		(instances
+			(project "tnu_pcb_pic40"
+				(path "/a3fd5e7d-0cea-44a9-a82d-5c7b53d9d25b/ad02958a-2d73-4242-8533-95aa22a85c5d"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 39.37 87.63 90)
 		(unit 1)
@@ -23517,162 +23673,6 @@
 			(project "tnu_pcb_pic40"
 				(path "/a3fd5e7d-0cea-44a9-a82d-5c7b53d9d25b/ad02958a-2d73-4242-8533-95aa22a85c5d"
 					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 102.87 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f218cc77-ae96-44a7-9abd-38eabe88a907")
-		(property "Reference" "#FLG02"
-			(at 102.87 94.615 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 102.87 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 102.87 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "56a329c0-98f2-43d9-a22c-b1555cd8467c")
-		)
-		(instances
-			(project "tnu_pcb_pic40"
-				(path "/a3fd5e7d-0cea-44a9-a82d-5c7b53d9d25b/ad02958a-2d73-4242-8533-95aa22a85c5d"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 60.96 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d563120-15d0-4562-8f05-95b7f1bc7b19")
-		(property "Reference" "#FLG03"
-			(at 60.96 48.895 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 60.96 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 60.96 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1d92730c-186e-4c52-b7dc-a06fe7baa67a")
-		)
-		(instances
-			(project "tnu_pcb_pic40"
-				(path "/a3fd5e7d-0cea-44a9-a82d-5c7b53d9d25b/ad02958a-2d73-4242-8533-95aa22a85c5d"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)

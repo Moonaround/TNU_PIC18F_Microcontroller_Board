@@ -2088,10 +2088,10 @@
 		)
 	)
 	(junction
-		(at 92.71 40.64)
+		(at 43.18 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "23375178-dcfe-445b-a38e-201da9fc2fea")
+		(uuid "0ae024cc-3b00-484d-92bb-abb9d45394db")
 	)
 	(junction
 		(at 69.85 73.66)
@@ -2104,6 +2104,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "179e7eb5-fda9-4143-8778-f8361b3bd208")
+	)
+	(junction
+		(at 92.71 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23375178-dcfe-445b-a38e-201da9fc2fea")
 	)
 	(junction
 		(at 90.17 130.81)
@@ -2178,20 +2184,20 @@
 		(uuid "e717fbed-5f77-4ed8-814f-22f518816954")
 	)
 	(no_connect
-		(at 166.37 74.93)
-		(uuid "464f4f65-e309-41ea-a496-51aee33b29dd")
+		(at 166.37 80.01)
+		(uuid "2fe634f9-940b-4967-b67b-9d9230eb8b50")
 	)
 	(no_connect
-		(at 166.37 82.55)
-		(uuid "ab40b5d7-7eb5-462a-ad46-edd182ce80fb")
+		(at 166.37 74.93)
+		(uuid "464f4f65-e309-41ea-a496-51aee33b29dd")
 	)
 	(no_connect
 		(at 166.37 77.47)
 		(uuid "68ae0e77-9a3f-4763-8f95-48554bd0f342")
 	)
 	(no_connect
-		(at 166.37 80.01)
-		(uuid "2fe634f9-940b-4967-b67b-9d9230eb8b50")
+		(at 166.37 82.55)
+		(uuid "ab40b5d7-7eb5-462a-ad46-edd182ce80fb")
 	)
 	(wire
 		(pts
@@ -2242,6 +2248,16 @@
 			(type default)
 		)
 		(uuid "0febbd0b-d7f7-4fc7-a5dc-2a2b405789f0")
+	)
+	(wire
+		(pts
+			(xy 43.18 148.59) (xy 43.18 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13ed89bf-365e-44a5-9891-d55db1ff38a8")
 	)
 	(wire
 		(pts
@@ -2365,16 +2381,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 40.64) (xy 100.33 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4950b83d-8edb-4a63-aeab-2d86ce783bc2")
-	)
-	(wire
-		(pts
 			(xy 100.33 40.64) (xy 104.14 40.64)
 		)
 		(stroke
@@ -2445,6 +2451,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 40.64) (xy 100.33 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4950b83d-8edb-4a63-aeab-2d86ce783bc2")
+	)
+	(wire
+		(pts
 			(xy 90.17 130.81) (xy 101.6 130.81)
 		)
 		(stroke
@@ -2472,6 +2488,16 @@
 			(type default)
 		)
 		(uuid "558dc8a7-d56f-41c9-9b25-164f22c3a20e")
+	)
+	(wire
+		(pts
+			(xy 43.18 148.59) (xy 41.91 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b7feab4-6dd2-4f75-a2af-6b1185daec8b")
 	)
 	(wire
 		(pts
@@ -2665,7 +2691,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 148.59) (xy 41.91 148.59)
+			(xy 52.07 148.59) (xy 43.18 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3950,6 +3976,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 92.71 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0eb0d5a9-eb8f-4f8a-9fc9-a035ac5d4dd3")
+		(property "Reference" "#FLG01"
+			(at 92.71 38.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 92.71 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 92.71 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37edea1e-2572-4554-b9f8-5c91edc4dff7")
+		)
+		(instances
+			(project "tnu_pcb_pic40"
+				(path "/a3fd5e7d-0cea-44a9-a82d-5c7b53d9d25b"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_B")
 		(at 33.02 73.66 0)
 		(unit 1)
@@ -5026,6 +5130,84 @@
 			(project "tnu_pcb_pic40"
 				(path "/a3fd5e7d-0cea-44a9-a82d-5c7b53d9d25b"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "531cee14-9181-4e63-a8fe-079c504b38f3")
+		(property "Reference" "#PWR012"
+			(at 43.18 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "748c3128-4f80-4317-8a1c-3b8e1523eded")
+		)
+		(instances
+			(project "tnu_pcb_pic40"
+				(path "/a3fd5e7d-0cea-44a9-a82d-5c7b53d9d25b"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8891,84 +9073,6 @@
 			(project "tnu_pcb_pic40"
 				(path "/a3fd5e7d-0cea-44a9-a82d-5c7b53d9d25b"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 92.71 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0eb0d5a9-eb8f-4f8a-9fc9-a035ac5d4dd3")
-		(property "Reference" "#FLG01"
-			(at 92.71 38.735 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 92.71 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 92.71 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "37edea1e-2572-4554-b9f8-5c91edc4dff7")
-		)
-		(instances
-			(project "tnu_pcb_pic40"
-				(path "/a3fd5e7d-0cea-44a9-a82d-5c7b53d9d25b"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
