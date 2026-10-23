@@ -2201,26 +2201,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 231.14) (xy 165.1 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f97096e4-26ce-460a-813a-3b36356a9caf")
-	)
-	(wire
-		(pts
-			(xy 170.18 231.14) (xy 170.18 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "826495c6-468f-4a1b-949c-76d7fa627e7d")
-	)
-	(wire
-		(pts
 			(xy 201.93 139.7) (xy 201.93 140.97)
 		)
 		(stroke
@@ -2631,6 +2611,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 231.14) (xy 170.18 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "826495c6-468f-4a1b-949c-76d7fa627e7d")
+	)
+	(wire
+		(pts
 			(xy 201.93 140.97) (xy 181.61 140.97)
 		)
 		(stroke
@@ -2961,6 +2951,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 231.14) (xy 165.1 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f97096e4-26ce-460a-813a-3b36356a9caf")
+	)
+	(wire
+		(pts
 			(xy 201.93 106.68) (xy 201.93 118.11)
 		)
 		(stroke
@@ -2978,6 +2978,26 @@
 			(type default)
 		)
 		(uuid "feb6771e-49da-4dff-a8e6-71a2a9b3199a")
+	)
+	(label "USB_TXD"
+		(at 165.1 226.06 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2922891a-659f-405d-8e50-ff647e60e2fd")
+	)
+	(label "USB_RXD"
+		(at 170.18 226.06 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d20b7cf-8d59-4316-bcde-ed9845a2c839")
 	)
 	(label "USB_TXD"
 		(at 171.45 64.77 0)
@@ -3008,26 +3028,6 @@
 			(justify right bottom)
 		)
 		(uuid "d04847f7-759d-4e39-a221-fae78092f9d2")
-	)
-	(label "USB_TXD"
-		(at 165.1 226.06 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2922891a-659f-405d-8e50-ff647e60e2fd")
-	)
-	(label "USB_RXD"
-		(at 170.18 226.06 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4d20b7cf-8d59-4316-bcde-ed9845a2c839")
 	)
 	(symbol
 		(lib_id "Device:C")

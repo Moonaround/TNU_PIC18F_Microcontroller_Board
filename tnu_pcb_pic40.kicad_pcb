@@ -132,7 +132,7 @@
 		(at 71.54 40.44)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP21"
+		(property "Reference" "TP16"
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
 			(uuid "75a83930-d3ca-4ce4-ad2b-3b38be45ab01")
@@ -2311,7 +2311,7 @@
 		(at 74.59 61.79)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP44"
+		(property "Reference" "TP18"
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
 			(uuid "3e65dbdf-1bf8-4456-9c58-eb997434736f")
@@ -2763,7 +2763,7 @@
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
-			(net "Net-(C5-Pad2)")
+			(net "GND")
 			(pintype "passive")
 			(uuid "06bcfa05-fb2e-408d-926e-d08226fd732d")
 		)
@@ -3500,7 +3500,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U3-~{MCLR}{slash}VPP)")
+			(net "/Microcontroller/MCLRn")
 			(pintype "passive")
 			(uuid "b24938ee-2ad9-410f-ba15-ab36284b1346")
 		)
@@ -3723,7 +3723,7 @@
 			(at 0 0)
 			(size 1 1)
 			(layers "F.Cu" "F.Mask")
-			(net "Net-(U3-SDI{slash}SDA{slash}RC4)")
+			(net "/Microcontroller/SDA")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "0c06c4f1-3102-4d51-8c8a-c36d4d90af2a")
@@ -4995,7 +4995,7 @@
 			(at 0 0)
 			(size 1 1)
 			(layers "F.Cu" "F.Mask")
-			(net "Net-(U3-~{MCLR}{slash}VPP)")
+			(net "/Microcontroller/MCLRn")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "0cc6e016-877c-40bb-9f8d-68a678a60774")
@@ -5263,6 +5263,219 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+		(layer "F.Cu")
+		(uuid "38eab79a-6476-4409-9b54-e177756c8d76")
+		(at 120.198903 140.12465)
+		(descr "SMD pad as test Point, diameter 1.0mm")
+		(tags "test point SMD pad")
+		(property "Reference" "TP21"
+			(at 0 -1.448 0)
+			(layer "F.SilkS")
+			(uuid "70fb9616-bad0-4a61-a8a7-8499ed4779ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP"
+			(at 0 1.55 0)
+			(layer "F.Fab")
+			(uuid "b38a6492-8318-41b5-a54e-c40f46e6b985")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "347fe418-9e74-4d77-bce5-ccc44ad38473")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "TEST POINT PC COMPACT .063\"D BLK"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef63bde4-85cb-4a71-85cf-4bb621a73ac3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6871f5c9-8bcc-43b2-82ca-fffbff7a51f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_PartNum" "5006"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6768f360-46ee-4192-86a3-43a809abd19f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer2" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bfc4011b-a535-400b-be2d-56e068548d24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer2_PartNum" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "837cd3a6-52d9-427b-bd0d-6c0199c4beea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80ddaea3-7256-425e-94af-2b7a04566191")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor_PartNum" "5006K-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0b9bd41-e9bf-4ba0-a5b1-4ee71a377fdd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor2" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "107a592a-d2d5-4dba-b6a6-084827d1132d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor2_PartNum" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04205758-5087-4f41-b328-6f80ed494771")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/ad02958a-2d73-4242-8533-95aa22a85c5d/cff489f4-8d3d-4425-ba04-0decbb1c7754")
+		(sheetname "/Microcontroller/")
+		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 0 0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "b75ac3e9-9a6f-43cd-9668-c10c88fdbbea")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "457be1bd-4a57-4b60-a4e2-ac1ae3e3b739")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.45 0)
+			(layer "F.Fab")
+			(uuid "0855965a-f17f-4e2f-b901-1bf6b7654692")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask")
+			(net "GND")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "4946e64e-06bd-44ac-bd49-6501616b9b32")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical"
 		(layer "F.Cu")
@@ -7843,6 +8056,114 @@
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "9c5e86ca-e8ee-4667-9126-1fcbb8bb0d31")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
+		(layer "F.Cu")
+		(uuid "541fee8d-4a59-4f8c-9be8-d37466ee1eeb")
+		(at 119.5 65)
+		(descr "Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M3")
+		(property "Reference" "H1"
+			(at 0 -4.15 0)
+			(layer "F.SilkS")
+			(uuid "33e97ee9-e0a2-4392-9b90-4e7f198fd4c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_3.2mm_M3_Pad"
+			(at 0 4.15 0)
+			(layer "F.Fab")
+			(uuid "1b6428c2-8ffe-47f8-9f7c-11c377ba6fe0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6438cf46-5534-4979-9d0a-9638ebf77e54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4021bbc5-45a8-461c-b1ca-4a5b94645bc4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b88d7574-5428-4422-8cbb-64c7df321dbe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "afd47aaa-86f7-49bb-9824-db2d60cd5505")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "21795c1c-e8b5-4f80-a02b-8a4f7fa84d64")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "9c1e6c10-6347-4926-a4cc-b0445e7d381f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 6.4 6.4)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(zone_connect 2)
+			(uuid "d5f90c61-8e26-48e3-83d1-523a4d02f6f9")
 		)
 		(embedded_fonts no)
 	)
@@ -11743,7 +12064,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1-~{DTR}-Pad1)")
 			(pinfunction "~{DTR}_1")
-			(pintype "output")
+			(pintype "output+no_connect")
 			(uuid "4b782ee0-594f-4833-ad71-047450a9ed0d")
 		)
 		(pad "2" smd rect
@@ -11779,7 +12100,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1-~{RI}-Pad5)")
 			(pinfunction "~{RI}_5")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "51c40cb9-a946-4933-bc50-d0cc7d333b28")
 		)
 		(pad "6" smd rect
@@ -11797,7 +12118,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1-~{DSR}-Pad7)")
 			(pinfunction "~{DSR}_7")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "e1a0e5fb-e033-46c2-b97d-a087c46aaff4")
 		)
 		(pad "8" smd rect
@@ -11806,7 +12127,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1-~{DCD}-Pad8)")
 			(pinfunction "~{DCD}_8")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "ecc3fd35-03cd-47fd-93b9-83a473b563ec")
 		)
 		(pad "9" smd rect
@@ -14649,7 +14970,7 @@
 			(at 0 0)
 			(size 1 1)
 			(layers "F.Cu" "F.Mask")
-			(net "/Microcontroller/USB_RXD")
+			(net "/USB_RXD")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "6ee5655c-1b3a-4582-86f1-ec0d8f9f80e4")
@@ -15076,6 +15397,114 @@
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "9a2ced9e-d9a5-4bd4-a9f7-ff64bfc95f14")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
+		(layer "F.Cu")
+		(uuid "861ce763-786c-452f-b773-a721fea6710f")
+		(at 175.7 154)
+		(descr "Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M3")
+		(property "Reference" "H4"
+			(at 0 -4.15 0)
+			(layer "F.SilkS")
+			(uuid "1738e153-72cf-45f1-8be9-8fd5c4c4952a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_3.2mm_M3_Pad"
+			(at 0 4.15 0)
+			(layer "F.Fab")
+			(uuid "dd805bfc-dcaf-44a5-b110-8274d02a8ced")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c39bb4ba-8f43-4f5c-9708-774b600a781a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9091ab5f-f42c-49e8-99e5-d269179ace9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f514f6aa-8d53-4185-a4ef-b6684a5153cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "5ec0ab4c-c157-458c-8e86-8db4aba35474")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "117282ab-3c96-4ec3-8dec-863289f58053")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "eccb2e26-1198-4dd7-97d9-31096c0c2e52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 6.4 6.4)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(zone_connect 2)
+			(uuid "41dbf131-d0aa-47d7-903a-c4be103470c8")
 		)
 		(embedded_fonts no)
 	)
@@ -16042,7 +16471,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
-			(net "Net-(U3-~{MCLR}{slash}VPP)")
+			(net "/Microcontroller/MCLRn")
 			(pinfunction "~{MCLR}/VPP_1")
 			(pintype "input")
 			(uuid "03532673-34af-4c7c-b0b0-9d8433867a94")
@@ -16174,7 +16603,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U3-OSC1{slash}CLKIN-Pad13)")
+			(net "/Microcontroller/CLK")
 			(pinfunction "OSC1/CLKIN_13")
 			(pintype "input")
 			(uuid "0f25b5c3-d680-4c83-b477-843fb33b815a")
@@ -16185,9 +16614,9 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/Microcontroller/CLK")
+			(net "unconnected-(U3-RA6{slash}OSC2{slash}CLKO-Pad14)")
 			(pinfunction "RA6/OSC2/CLKO_14")
-			(pintype "output")
+			(pintype "output+no_connect")
 			(uuid "396b97bc-9c4f-4cb4-8e7c-cafbc143f8c1")
 		)
 		(pad "15" thru_hole circle
@@ -16229,7 +16658,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U3-SCK{slash}SCL{slash}RC3)")
+			(net "/Microcontroller/SCL")
 			(pinfunction "SCK/SCL/RC3_18")
 			(pintype "bidirectional")
 			(uuid "574c94c3-c279-49bf-8e15-860f9c355aba")
@@ -16284,7 +16713,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U3-SDI{slash}SDA{slash}RC4)")
+			(net "/Microcontroller/SDA")
 			(pinfunction "SDI/SDA/RC4_23")
 			(pintype "bidirectional")
 			(uuid "7f96f904-acab-490c-88c5-7b505e033361")
@@ -16306,7 +16735,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/Microcontroller/USB_RXD")
+			(net "/USB_RXD")
 			(pinfunction "TX/CK/RC6_25")
 			(pintype "bidirectional")
 			(uuid "7ada69ff-3934-4d0b-b504-6d5492f6b998")
@@ -16317,7 +16746,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/Microcontroller/USB_TXD")
+			(net "/USB_TXD")
 			(pinfunction "RX/DT/RC7_26")
 			(pintype "bidirectional")
 			(uuid "ff61c99d-c718-4cab-b227-89abb8e433d9")
@@ -16427,7 +16856,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U3-RB3{slash}CCP2)")
+			(net "/Microcontroller/RB3")
 			(pinfunction "RB3/CCP2_36")
 			(pintype "bidirectional")
 			(uuid "3ec1b107-c1ef-424c-a5c9-7cab492c053e")
@@ -17804,7 +18233,7 @@
 			(at 0 0)
 			(size 1 1)
 			(layers "F.Cu" "F.Mask")
-			(net "Net-(U3-RB3{slash}CCP2)")
+			(net "/Microcontroller/RB3")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "58346e24-91dd-49db-8ad3-0ee35aeab447")
@@ -18279,7 +18708,7 @@
 			(at 0 0)
 			(size 1 1)
 			(layers "F.Cu" "F.Mask")
-			(net "/Microcontroller/USB_TXD")
+			(net "/USB_TXD")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "16e9b94e-c2bb-4a7f-944f-7c9c8ae46b8e")
@@ -19863,7 +20292,7 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J5-Pin_1)")
+			(net "/Microcontroller/MCLRn")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "2a1e2a37-7de8-461e-b753-0d385847a7b2")
@@ -19874,7 +20303,7 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J5-Pin_1)")
+			(net "/Microcontroller/MCLRn")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "fb6b7b9a-422f-400b-8e7d-3b39743d34dc")
@@ -22048,6 +22477,222 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
+		(layer "F.Cu")
+		(uuid "c1b910ed-41b4-42be-badc-6000873405d2")
+		(at 175.7 65)
+		(descr "Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M3")
+		(property "Reference" "H2"
+			(at 0 -4.15 0)
+			(layer "F.SilkS")
+			(uuid "860ca577-3394-4a54-9045-eb75f877e40d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_3.2mm_M3_Pad"
+			(at 0 4.15 0)
+			(layer "F.Fab")
+			(uuid "6e1e78cf-d221-475b-af5b-7ccb0df91e55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b01b230-aa9f-4128-94f1-991ffe899e1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a357a3e-123d-4ad7-8c57-9514f484d98c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "214ab48f-d034-41d1-be73-f74085813579")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "8b685a1a-4883-4fbe-995c-f62a63d34fcb")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "d3afe45b-3e7d-42dd-9bea-2ecccf4db43b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "3f0eca57-3a23-4da8-be5c-ab3482aa118f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 6.4 6.4)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(zone_connect 2)
+			(uuid "69745482-7a33-427f-8d4e-b6d8d370ba06")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
+		(layer "F.Cu")
+		(uuid "c2d72939-7c2a-46a5-a068-280dce0fd218")
+		(at 119.5 154)
+		(descr "Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M3")
+		(property "Reference" "H3"
+			(at 0 -4.15 0)
+			(layer "F.SilkS")
+			(uuid "9b422cd4-5097-406f-b9fc-9dc2fc6048fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_3.2mm_M3_Pad"
+			(at 0 4.15 0)
+			(layer "F.Fab")
+			(uuid "69ca3f46-7c0d-4d39-b678-1ea480a1790b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fcb7c4a9-da82-4f50-932c-2785991227af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a19fabe-f0c4-4330-8e69-44090818ed58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "91d5001e-5e54-4713-812c-b0617028f271")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "1b74018c-7c06-457c-bd11-704419aa5d4d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "96ad3a01-a048-447d-a7b9-5498c26e2360")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b2deaec7-2006-4d94-bb5c-fad21fd06de8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 6.4 6.4)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(zone_connect 2)
+			(uuid "86fb75a7-4738-4d97-94fd-ce6baadee75b")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "c3d9d372-2206-4265-bc9f-12535624176e")
@@ -22467,7 +23112,7 @@
 			(at 0 0)
 			(size 1 1)
 			(layers "F.Cu" "F.Mask")
-			(net "Net-(U3-SCK{slash}SCL{slash}RC3)")
+			(net "/Microcontroller/SCL")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "56fdf7aa-09c1-4b33-91b3-623c52333027")
@@ -26135,7 +26780,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J5-Pin_1)")
+			(net "/Microcontroller/MCLRn")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "d7e42735-f87a-4580-b317-69b657d17328")
@@ -27268,7 +27913,7 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(C5-Pad2)")
+			(net "GND")
 			(pintype "passive")
 			(uuid "70d406dc-3c33-4ab5-aa57-767fc5c21a77")
 		)
@@ -28690,350 +29335,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
-		(layer "F.Cu")
-		(uuid "541fee8d-4a59-4f8c-9be8-d37466ee1eeb")
-		(at 119.5 65)
-		(descr "Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py")
-		(tags "mountinghole M3")
-		(property "Reference" "H1"
-			(at 0 -4.15 0)
-			(layer "F.SilkS")
-			(uuid "33e97ee9-e0a2-4392-9b90-4e7f198fd4c1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_3.2mm_M3_Pad"
-			(at 0 4.15 0)
-			(layer "F.Fab")
-			(uuid "1b6428c2-8ffe-47f8-9f7c-11c377ba6fe0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(uuid "b88d7574-5428-4422-8cbb-64c7df321dbe")
-			(hide yes)
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr board_only exclude_from_pos_files exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 3.2 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill no)
-			(layer "Cmts.User")
-			(uuid "afd47aaa-86f7-49bb-9824-db2d60cd5505")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 3.45 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "21795c1c-e8b5-4f80-a02b-8a4f7fa84d64")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "9c1e6c10-6347-4926-a4cc-b0445e7d381f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 6.4 6.4)
-			(drill 3.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(zone_connect 2)
-			(uuid "d5f90c61-8e26-48e3-83d1-523a4d02f6f9")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
-		(layer "F.Cu")
-		(uuid "c1b910ed-41b4-42be-badc-6000873405d2")
-		(at 175.7 65)
-		(descr "Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py")
-		(tags "mountinghole M3")
-		(property "Reference" "H2"
-			(at 0 -4.15 0)
-			(layer "F.SilkS")
-			(uuid "860ca577-3394-4a54-9045-eb75f877e40d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_3.2mm_M3_Pad"
-			(at 0 4.15 0)
-			(layer "F.Fab")
-			(uuid "6e1e78cf-d221-475b-af5b-7ccb0df91e55")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(uuid "214ab48f-d034-41d1-be73-f74085813579")
-			(hide yes)
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr board_only exclude_from_pos_files exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 3.2 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill no)
-			(layer "Cmts.User")
-			(uuid "8b685a1a-4883-4fbe-995c-f62a63d34fcb")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 3.45 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "d3afe45b-3e7d-42dd-9bea-2ecccf4db43b")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "3f0eca57-3a23-4da8-be5c-ab3482aa118f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 6.4 6.4)
-			(drill 3.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(zone_connect 2)
-			(uuid "69745482-7a33-427f-8d4e-b6d8d370ba06")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
-		(layer "F.Cu")
-		(uuid "c2d72939-7c2a-46a5-a068-280dce0fd218")
-		(at 119.5 154)
-		(descr "Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py")
-		(tags "mountinghole M3")
-		(property "Reference" "H3"
-			(at 0 -4.15 0)
-			(layer "F.SilkS")
-			(uuid "9b422cd4-5097-406f-b9fc-9dc2fc6048fc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_3.2mm_M3_Pad"
-			(at 0 4.15 0)
-			(layer "F.Fab")
-			(uuid "69ca3f46-7c0d-4d39-b678-1ea480a1790b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(uuid "91d5001e-5e54-4713-812c-b0617028f271")
-			(hide yes)
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr board_only exclude_from_pos_files exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 3.2 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill no)
-			(layer "Cmts.User")
-			(uuid "1b74018c-7c06-457c-bd11-704419aa5d4d")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 3.45 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "96ad3a01-a048-447d-a7b9-5498c26e2360")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "b2deaec7-2006-4d94-bb5c-fad21fd06de8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 6.4 6.4)
-			(drill 3.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(zone_connect 2)
-			(uuid "86fb75a7-4738-4d97-94fd-ce6baadee75b")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
-		(layer "F.Cu")
-		(uuid "861ce763-786c-452f-b773-a721fea6710f")
-		(at 175.7 154)
-		(descr "Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py")
-		(tags "mountinghole M3")
-		(property "Reference" "H4"
-			(at 0 -4.15 0)
-			(layer "F.SilkS")
-			(uuid "1738e153-72cf-45f1-8be9-8fd5c4c4952a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_3.2mm_M3_Pad"
-			(at 0 4.15 0)
-			(layer "F.Fab")
-			(uuid "dd805bfc-dcaf-44a5-b110-8274d02a8ced")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(uuid "f514f6aa-8d53-4185-a4ef-b6684a5153cb")
-			(hide yes)
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr board_only exclude_from_pos_files exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 3.2 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill no)
-			(layer "Cmts.User")
-			(uuid "5ec0ab4c-c157-458c-8e86-8db4aba35474")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 3.45 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "117282ab-3c96-4ec3-8dec-863289f58053")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "eccb2e26-1198-4dd7-97d9-31096c0c2e52")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 6.4 6.4)
-			(drill 3.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(zone_connect 2)
-			(uuid "41dbf131-d0aa-47d7-903a-c4be103470c8")
-		)
-		(embedded_fonts no)
 	)
 	(gr_rect
 		(start 114.5 60)
